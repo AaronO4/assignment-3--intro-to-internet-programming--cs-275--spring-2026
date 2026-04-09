@@ -89,7 +89,7 @@ You must employ Gulp, **version 4.0.2**, as the task runner, with workflows for 
 
 ## ❖・Due・❖
 
-Thursday, 10 April 2025, at 10:00 PM.
+Thursday, 23 April 2026, at 10:00 PM.
 
 ---
 
