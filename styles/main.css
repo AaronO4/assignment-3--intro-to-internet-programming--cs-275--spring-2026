@@ -6,19 +6,31 @@ p {
   font-size: 1.25rem;
 }
 
+body {
+  background-color: beige;
+}
+
 nav {
   padding-bottom: 20px;
+}
+
+header {
+  background-color: darkcyan;
 }
 
 ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  text-align: center;
+  overflow: hidden;
+  background-color: darkcyan;
 }
 
 ul li a {
   display: block;
   text-align: center;
+  padding: 10px 15px;
   float: left;
 }
 
@@ -57,12 +69,4 @@ ul li a:hover {
   opacity: 1;
   margin: 10% auto;
   width: 75%;
-}
-
-header {
-  background-color: darkcyan;
-}
-
-body {
-  background-color: beige;
 }
