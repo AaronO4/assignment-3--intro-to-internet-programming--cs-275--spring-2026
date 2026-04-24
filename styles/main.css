@@ -21,10 +21,27 @@ header {
 .menu {
   display: none;
   position: fixed;
-  width: 250px;
+  align-content: center;
+  min-width: 85px;
+  height: 90px;
+  padding-top: 25px;
+  margin-left: 350px;
+}
+
+.dropdown-menu-one {
+  display: none;
+  width: 100px;
   height: 100px;
-  margin: 0;
-  padding: 0;
+  margin-left: 450px;
+  background-color: #0ce3ac;
+}
+
+.dropdown-menu-two {
+  display: none;
+  width: 100px;
+  height: 100px;
+  margin-left: 450px;
+  background-color: #0ce3ac;
 }
 
 ul {
