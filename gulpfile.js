@@ -68,8 +68,10 @@ exports.compressHTML = compressHTML;
 
 let serve = () => {
     browserSync({
-        reloadDelay: 75,
-        server:  `./`
+        reloadDelay: 15,
+        server: {
+            baseDir: `./`
+        }
     });
 
     watch([
@@ -79,6 +81,7 @@ let serve = () => {
     ]).on(`change`, browserSync.reload);
 };
 
+exports.default = serve;
 exports.serve = series(
     validateCSS,
     lintCSS,
