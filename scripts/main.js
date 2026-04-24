@@ -2,11 +2,15 @@ const modal = document.getElementById(`modal`);
 const modalPanel = document.getElementById(`modalPanel`);
 const modalContent = document.getElementById(`modalContent`);
 const modalButton = document.getElementById(`modalButton`);
-const menu = document.getElementById(`menu`);
+const menu = document.getElementById(`menuID`);
+const menuOne = document.getElementById(`dropdown-menu-one`);
+const menuTwo = document.getElementById(`dropdown-menu-two`);
 const menuButton = document.getElementById(`menuButton`);
 
 menuButton.onclick = function() {
-    menu.style.display = `block`; //TODO: fill
+    menu.style.display = `block`;
+    menuOne.style.display = `block`;
+    menuTwo.style.display = `block`;
 };
 
 modalButton.onclick = function() {
